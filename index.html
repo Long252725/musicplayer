@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<!-- desk -->
+<div class="desk">
+    <div class="timer">
+        <div class="timerall hours">00</div>
+        <div class="timerall minutes">00</div>
+        <div class="timerall second">00</div>
+    </div>
+    <div class="timertop"></div> 
+    <div class="timerbottom"></div>
+    <div class="taskbar-bottom">
+        <div class="menu" id="menu-2">
+            <div class="shuffle" id="shuffle-2"><i class="fa-solid fa-shuffle shuffleicon" id="shuffleicon-2"></i></div>
+            <div class="prev" id="prev-2"><i class="fa-solid fa-forward-step fa-rotate-180 previcon icon" id="previcon-2" ></i></div>
+            <div class="play" id="play-2"><i class="fa-solid fa-play playicon icon" id="playicon-2" style="color: #ffffff;"></i></div>
+            <div class="next" id="next-2"><i class="fa-solid fa-forward-step nexticon icon" id="nexticon-2"></i></div>
+            <div class="repeat" id="repeat-2"><i class="fa-solid fa-repeat repeaticon " id="repeaticon-2"></i></div>
+        </div>
+        <input type="range" min="0" max="100" value="0" class="slider  slider-2" step="1" id="#progress" >
+            <audio src="" id="audio"></audio>
+        <div class="name-song-box" id="name-song-box-2"><div class="name-song" > 100 Years Love</div></div>
+        <div class="cd-cha" id="cd-cha-2">
+                <div class="cd" id="cd"></div>
+        </div>
+    </div>
+    <div class="taskbar-lef">
+        
+        <i class="fa-solid fa-bars settingicon2"></i>
+        <div class="logo">
+            Bafe - Music Player  </div>
+            <div class="color"></div>
+        <div class="main-2"></div>
+    
+            </div>
+    </div>
+</div>
+
+<!-- mobile -->
+<div class="mobile">
+    <div class="container">
+        <div class="header">
+            <div class="menu">
+                <div class="shuffle"><i class="fa-solid fa-shuffle shuffleicon"></i></div>
+                <div class="prev"><i class="fa-solid fa-forward-step fa-rotate-180 previcon icon" ></i></div>
+                <div class="play" ><i class="fa-solid fa-play playicon icon" style="color: #ffffff;"></i></div>
+                <div class="next"><i class="fa-solid fa-forward-step nexticon icon"></i></div>
+                <div class="repeat"><i class="fa-solid fa-repeat repeaticon "></i></div>
+            </div>
+            <input type="range" min="0" max="100" value="0" class="slider" step="1" id="#progress">
+            <audio src="" id="audio"></audio>
+            <div class="name-song-box"><div class="name-song" > 100 Years Love</div></div>
+            <div class="cd-cha">
+                <div class="cd" ></div>
+            </div>
+                <div class="anh" ></div>
+            </div>
+        <div class="main"></div>
+    
+            </div>
+</div>
+<script src="https://kit.fontawesome.com/707e068fea.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
